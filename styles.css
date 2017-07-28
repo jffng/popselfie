@@ -1,0 +1,38 @@
+body {
+	margin: 0 auto;
+    text-align: center;
+}
+
+.container {
+	display: inline-block;
+    position: relative;
+	vertical-align: top;
+    overflow:hidden;
+}
+
+video, canvas {
+	width: 480px;
+	height: 480px;
+	background-color: white;
+}
+
+canvas {
+	image-rendering: pixelated;
+}
+
+#capture { 
+    display: none;
+}
+
+#left {
+    position: absolute;
+    background: transparent;
+    left: -200px;
+}
+
+#right {
+    position: absolute;
+    background: transparent;
+    left: 200px;
+    top: 0;
+}
